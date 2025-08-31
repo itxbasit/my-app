@@ -7,7 +7,7 @@
     dotenv.config();
 
     const app = express();
-    const PORT = process.env.PORT || 4000;
+    const PORT = process.env.PORT || 3000;
     const API_KEY = process.env.FREECURRENCY_API_KEY || "YOUR_API_KEY";
     const FREECURRENCY_BASE = "https://api.freecurrencyapi.com/v1";
 
